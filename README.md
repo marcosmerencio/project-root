@@ -80,9 +80,17 @@ npm run test
 
 # ⚙️ Como rodar localmente
 ## Pré-requisitos:
-- Node.js (Versão 18 ou superior)
+Antes de começar, verifique se você possui o Node.js (v18+) e o npm instalados:
 
-- npm
+```Bash
+node -v
+npm -v
+```
+Caso não tenha instalado:
+
+- Windows/macOS: Baixe a versão LTS em nodejs.org.
+
+- Linux: sudo apt install nodejs npm.
 
 ### Passo a Passo:
 1. Clone o repositório:
@@ -117,7 +125,7 @@ DB_HOST=substitua_pelo_host_do_banco      # Ex: localhost
 DB_PORT=substitua_pela_porta_do_banco     # Ex: 27017
 DB_USER=substitua_pelo_usuario_do_banco   # Seu usuário
 DB_PASS=substitua_pela_senha_do_banco     # Sua senha
-DB_NAME=project_root_db
+DB_NAME=project_root_db                   # Seu banco de dados  
 
 # Segurança e Autenticação
 # IMPORTANTE: Crie uma chave secreta forte para o JWT
@@ -130,6 +138,15 @@ JWT_EXPIRES_IN=7d
 ```Bash
 npm run dev
 ```
+
+# 📈 Próximos Passos Sugeridos
+Refresh Tokens: Implementar estratégia de Refresh Tokens para reduzir o tempo de expiração do Access Token de 7 dias para 15 minutos, aumentando a segurança.
+
+Dockerização: Criar um Dockerfile e docker-compose.yml para facilitar o deploy e padronizar o ambiente de desenvolvimento.
+
+Logging: Integrar bibliotecas como Winston ou Morgan para monitoramento de erros e logs de requisições em tempo real.
+
+CI/CD: Configurar GitHub Actions para rodar a suíte de testes automaticamente a cada novo Pull Request.
 
 # 🙏 Agradecimentos
 - A Deus pela oportunidade de participar do curso de Desenvolvimento Fullstack da Geração Tech 3.0.
