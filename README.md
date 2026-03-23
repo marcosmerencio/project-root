@@ -140,13 +140,13 @@ npm run dev
 ```
 
 # 📈 Próximos Passos Sugeridos
-Refresh Tokens: Implementar estratégia de Refresh Tokens para reduzir o tempo de expiração do Access Token de 7 dias para 15 minutos, aumentando a segurança.
+- Refresh Tokens: Implementar estratégia de Refresh Tokens para reduzir o tempo de expiração do Access Token de 7 dias para 15 (ou 30) minutos, aumentando a segurança.
 
-Dockerização: Criar um Dockerfile e docker-compose.yml para facilitar o deploy e padronizar o ambiente de desenvolvimento.
+- Dockerização: Criar um Dockerfile e docker-compose.yml para facilitar o deploy e padronizar o ambiente de desenvolvimento.
 
-Logging: Integrar bibliotecas como Winston ou Morgan para monitoramento de erros e logs de requisições em tempo real.
+- Logging: Integrar bibliotecas como Winston ou Morgan para monitoramento de erros e logs de requisições em tempo real.
 
-CI/CD: Configurar GitHub Actions para rodar a suíte de testes automaticamente a cada novo Pull Request.
+- CI/CD: Configurar GitHub Actions para rodar a suíte de testes automaticamente a cada novo Pull Request.
 
 # 🙏 Agradecimentos
 - A Deus pela oportunidade de participar do curso de Desenvolvimento Fullstack da Geração Tech 3.0.
