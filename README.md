@@ -68,6 +68,7 @@ O projeto utiliza padrões de engenharia de software que garantem a qualidade do
 # 📖 Documentação e Testes
 ## Documentação da API (Swagger)
 A documentação completa dos endpoints pode ser visualizada e testada acessando:
+
 👉 http://localhost:3001/api-docs/#/
 
 ## Testes Automatizados
@@ -79,9 +80,9 @@ npm run test
 
 # ⚙️ Como rodar localmente
 ## Pré-requisitos:
-Node.js (Versão 18 ou superior)
+- Node.js (Versão 18 ou superior)
 
-npm
+- npm
 
 ### Passo a Passo:
 1. Clone o repositório:
