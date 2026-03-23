@@ -6,35 +6,40 @@
 <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest" />
 </p>
 
+
 # 📝 Descrição
-O Project Root é uma API robusta desenvolvida como o núcleo de processamento para aplicações de e-commerce e sistemas de gestão. Construído com foco em escalabilidade e segurança, este projeto representa a fundação backend necessária para gerenciar autenticação, persistência de dados e regras de negócio complexas. O projeto foi desenvolvido como parte do curso de Desenvolvimento Fullstack da Geração Tech 3.0.
+O Project Root é uma API robusta desenvolvida como o núcleo de processamento para aplicações de e-commerce e sistemas de gestão. Construído com foco em escalabilidade e segurança, este projeto representa a fundação backend necessária para gerenciar autenticação, persistência de dados e regras de negócio complexas. Esse projeto backend foi desenvolvido como parte da conclusão do curso de Desenvolvimento Fullstack da Geração Tech 3.0.
+
 
 # 🔗 Repositório
 GitHub: https://github.com/marcosmerencio/project-root
 
+
 # 🚀 Funcionalidades Principais
-- Documentação Interativa (Swagger): Interface completa para exploração e teste dos endpoints da API.
+- **Documentação Interativa (Swagger):** Interface completa para exploração e teste dos endpoints da API.
 
-- Testes Automatizados: Suíte de testes para garantir a confiabilidade e integridade das rotas.
+- **Testes Automatizados:** Suíte de testes para garantir a confiabilidade e integridade das rotas.
 
-- Gestão de Usuários e Autenticação: Fluxos de segurança para proteção de dados e controle de acesso.
+- **Gestão de Usuários e Autenticação:** Fluxos de segurança para proteção de dados e controle de acesso.
 
-- Gerenciamento de Produtos: CRUD completo para administração do catálogo.
+- **Gerenciamento de Produtos:** CRUD completo para administração do catálogo.
 
-- Middleware de Validação: Camadas de tratamento de erros e validação de requisições.
+- **Middleware de Validação:** Camadas de tratamento de erros e validação de requisições.
+
 
 # 🛠️ Tecnologias Utilizadas
-- Node.js: Ambiente de execução Javascript no servidor.
+- **Node.js:** Ambiente de execução Javascript no servidor.
 
-- Express: Framework para gerenciamento de rotas e middlewares.
+- **Express:** Framework para gerenciamento de rotas e middlewares.
 
-- Swagger UI: Documentação automática e interativa da API.
+- **Swagger UI:** Documentação automática e interativa da API.
 
-- Jest / Supertest: Ferramentas para execução de testes unitários e de integração.
+- **Jest / Supertest:** Ferramentas para execução de testes unitários e de integração.
 
-- Dotenv: Gerenciamento de variáveis de ambiente.
+- **Dotenv:** Gerenciamento de variáveis de ambiente.
 
-- CORS: Configuração de políticas de acesso seguro.
+- **CORS:** Configuração de políticas de acesso seguro.
+
 
 # 📂 Estrutura de Arquivos
 ```Plaintext
@@ -55,15 +60,16 @@ project-root/
 # ✨ Boas Práticas Aplicadas
 O projeto utiliza padrões de engenharia de software que garantem a qualidade do código:
 
-- Separation of Concerns (SoC): Organização modular que separa a rede, a lógica e os dados.
+- **Separation of Concerns (SoC):** Organização modular que separa a rede, a lógica e os dados.
 
-- Environment Isolation: Proteção de chaves e portas via variáveis de ambiente.
+- **Environment Isolation:** Proteção de chaves e portas via variáveis de ambiente.
 
-- Fail-Fast (Middleware): Bloqueio de requisições inválidas antes do processamento principal.
+- **Fail-Fast (Middleware):** Bloqueio de requisições inválidas antes do processamento principal.
 
-- Decoupled Architecture: Separação do arquivo app.js e server.js, permitindo testes de integração sem instanciar portas de rede desnecessariamente.
+- **Decoupled Architecture:** Separação do arquivo app.js e server.js, permitindo testes de integração sem instanciar portas de rede desnecessariamente.
 
-- Self-Documenting API: Uso de Swagger para manter a documentação técnica sempre sincronizada com o código.
+- **Self-Documenting API:** Uso de Swagger para manter a documentação técnica sempre sincronizada com o código.
+
 
 # 📖 Documentação e Testes
 ## Documentação da API (Swagger)
@@ -93,27 +99,23 @@ Caso não tenha instalado:
 - Linux: sudo apt install nodejs npm.
 
 ### Passo a Passo:
-1. Clone o repositório:
-
+**1. Clone o repositório:**
 ```Bash
 git clone https://github.com/marcosmerencio/project-root.git
 ```
 
-2. Acesse a pasta do projeto:
-
+**2. Acesse a pasta do projeto:**
 ```Bash
 cd project-root
 ```
 
-3. Instale as dependências:
-
+**3. Instale as dependências:**
 ```Bash
 npm install
 ```
 
-4. Configure o arquivo .env (Obrigatório):
+**4. Configure o arquivo .env (Obrigatório):**
 Crie um arquivo chamado .env na raiz do seu projeto e cole o conteúdo abaixo. Substitua os valores indicados para que a API funcione corretamente:
-
 ```Snippet de código
 # Configurações do Servidor
 PORT=3001
@@ -133,30 +135,33 @@ JWT_SECRET=substitua_por_uma_chave_longa_e_segura
 JWT_EXPIRES_IN=7d
 ```
 
-5. Inicie o servidor de desenvolvimento:
-
+**5. Inicie o servidor de desenvolvimento:**
 ```Bash
 npm run dev
 ```
 
+
 # 📈 Próximos Passos Sugeridos
-- Refresh Tokens: Implementar estratégia de Refresh Tokens para reduzir o tempo de expiração do Access Token de 7 dias para 15 (ou 30) minutos, aumentando a segurança.
+- **Refresh Tokens:** Implementar estratégia de Refresh Tokens para reduzir o tempo de expiração do Access Token de 7 dias para 15 (ou 30) minutos, aumentando a segurança.
 
-- Dockerização: Criar um Dockerfile e docker-compose.yml para facilitar o deploy e padronizar o ambiente de desenvolvimento.
+- **Dockerização:** Criar um Dockerfile e docker-compose.yml para facilitar o deploy e padronizar o ambiente de desenvolvimento.
 
-- Logging: Integrar bibliotecas como Winston ou Morgan para monitoramento de erros e logs de requisições em tempo real.
+- **Logging:** Integrar bibliotecas como Winston ou Morgan para monitoramento de erros e logs de requisições em tempo real.
 
-- CI/CD: Configurar GitHub Actions para rodar a suíte de testes automaticamente a cada novo Pull Request.
+- **CI/CD:** Configurar GitHub Actions para rodar a suíte de testes automaticamente a cada novo Pull Request.
+
 
 # 🙏 Agradecimentos
-- A Deus pela oportunidade de participar do curso de Desenvolvimento Fullstack da Geração Tech 3.0.
+- A **Deus** pela oportunidade de participar do curso de Desenvolvimento Fullstack da Geração Tech 3.0.
 
 - Ao professor Luan Oliveira pela excelente didática e acompanhamento constante durante todo o curso.
 
 - À monitora Nazaré Almeida pela sua atenção, disponibilidade, orientação e incentivo durante o curso e no desenvolvimento desse projeto.
 
+
 # ✒️ Autor
 Marcos Merencio — Desenvolvedor Fullstack em formação.
 
+
 # 📄 Licença
-O uso, cópia e distribuição desse projeto são permitidos para fins de estudo e aprendizagem.
+O **uso, cópia e distribuição** desse projeto são **permitidos para fins de estudo e aprendizagem.**
