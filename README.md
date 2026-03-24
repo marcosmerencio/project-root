@@ -156,11 +156,11 @@ npm run dev
 
 - Ao professor Luan Oliveira pela excelente didática e acompanhamento constante durante todo o curso.
 
-- À monitora Nazaré Almeida pela sua atenção, disponibilidade, orientação e incentivo durante o curso e no desenvolvimento desse projeto.
+- À monitora Nazaré Almeida, pela sua atenção, disponibilidade, orientação e incentivo durante o curso e no desenvolvimento deste projeto.
 
 
 # ✒️ Autor
-Marcos Merencio — Desenvolvedor Fullstack em formação.
+**Marcos Merencio** — Desenvolvedor Fullstack em formação.
 
 
 # 📄 Licença
