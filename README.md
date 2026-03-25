@@ -74,8 +74,7 @@ O projeto utiliza padrões de engenharia de software que garantem a qualidade do
 # 📖 Documentação e Testes
 ## Documentação da API (Swagger)
 A documentação completa dos endpoints pode ser visualizada e testada acessando:
-
-👉 http://localhost:3001/api-docs/#/
+http://localhost:3001/api-docs/#/
 
 ## Testes Automatizados
 Para garantir a integridade do sistema, execute a suíte de testes com o comando:
