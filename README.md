@@ -7,15 +7,15 @@
 </p>
 
 
-# 📝 Descrição
+# Descrição
 O Project Root é uma API robusta desenvolvida como o núcleo de processamento para aplicações de e-commerce e sistemas de gestão. Construído com foco em escalabilidade e segurança, este projeto representa a fundação backend necessária para gerenciar autenticação, persistência de dados e regras de negócio complexas. Esse projeto backend foi desenvolvido como parte da conclusão do curso de Desenvolvimento Fullstack da Geração Tech 3.0.
 
 
-# 🔗 Repositório
+# Repositório
 GitHub: https://github.com/marcosmerencio/project-root
 
 
-# 🚀 Funcionalidades Principais
+# Funcionalidades Principais
 - **Documentação Interativa (Swagger):** Interface completa para exploração e teste dos endpoints da API.
 
 - **Testes Automatizados:** Suíte de testes para garantir a confiabilidade e integridade das rotas.
@@ -27,7 +27,7 @@ GitHub: https://github.com/marcosmerencio/project-root
 - **Middleware de Validação:** Camadas de tratamento de erros e validação de requisições.
 
 
-# 🛠️ Tecnologias Utilizadas
+# Tecnologias Utilizadas
 - **Node.js:** Ambiente de execução Javascript no servidor.
 
 - **Express:** Framework para gerenciamento de rotas e middlewares.
@@ -41,7 +41,7 @@ GitHub: https://github.com/marcosmerencio/project-root
 - **CORS:** Configuração de políticas de acesso seguro.
 
 
-# 📂 Estrutura de Arquivos
+# Estrutura de Arquivos
 ```Plaintext
 project-root/
 ├── src/
@@ -57,7 +57,7 @@ project-root/
 └── package.json       # Dependências e scripts do projeto
 ```
 
-# ✨ Boas Práticas Aplicadas
+# Boas Práticas Aplicadas
 O projeto utiliza padrões de engenharia de software que garantem a qualidade do código:
 
 - **Separation of Concerns (SoC):** Organização modular que separa a rede, a lógica e os dados.
@@ -71,7 +71,7 @@ O projeto utiliza padrões de engenharia de software que garantem a qualidade do
 - **Self-Documenting API:** Uso de Swagger para manter a documentação técnica sempre sincronizada com o código.
 
 
-# 📖 Documentação e Testes
+# Documentação e Testes
 ## Documentação da API (Swagger)
 A documentação completa dos endpoints pode ser visualizada e testada acessando:
 
@@ -84,7 +84,7 @@ Para garantir a integridade do sistema, execute a suíte de testes com o comando
 npm run test
 ```
 
-# ⚙️ Como rodar localmente
+# Como rodar localmente
 ## Pré-requisitos:
 Antes de começar, verifique se você possui o Node.js (v18+) e o npm instalados:
 
@@ -141,7 +141,7 @@ npm run dev
 ```
 
 
-# 📈 Próximos Passos Sugeridos
+# Próximos Passos Sugeridos
 - **Refresh Tokens:** Implementar estratégia de Refresh Tokens para reduzir o tempo de expiração do Access Token de 7 dias para 15 (ou 30) minutos, aumentando a segurança.
 
 - **Dockerização:** Criar um Dockerfile e docker-compose.yml para facilitar o deploy e padronizar o ambiente de desenvolvimento.
@@ -151,7 +151,7 @@ npm run dev
 - **CI/CD:** Configurar GitHub Actions para rodar a suíte de testes automaticamente a cada novo Pull Request.
 
 
-# 🙏 Agradecimentos
+# Agradecimentos
 - A **Deus** pela oportunidade de participar do curso de Desenvolvimento Fullstack da Geração Tech 3.0.
 
 - Ao professor Luan Oliveira pela excelente didática e acompanhamento constante durante todo o curso.
@@ -159,9 +159,9 @@ npm run dev
 - À monitora Nazaré Almeida, pela sua atenção, disponibilidade, orientação e incentivo durante o curso e no desenvolvimento deste projeto.
 
 
-# ✒️ Autor
+# Autor
 **Marcos Merencio** — Desenvolvedor Fullstack em formação.
 
 
-# 📄 Licença
+# Licença
 O **uso, cópia e distribuição** desse projeto são **permitidos para fins de estudo e aprendizagem.**
